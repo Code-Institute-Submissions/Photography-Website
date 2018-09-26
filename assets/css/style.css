@@ -1,0 +1,11 @@
+/*-------------------------------------Fonts*/
+/*Utilising Jura and Play Fonts for Website*/
+
+@import url('https://fonts.googleapis.com/css?family=Jura:100,200,300,400,500,600,700|Play:100,200,300,400,500,600,700');
+
+body {
+    font-family: "Jura", sans-serif;
+    font-size: 100px;
+    color: red;
+    font-weight: 100;
+}
