@@ -4,11 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Jura:100,200,300,400,500,600,700|Play:100,200,300,400,500,600,700');
 
 /*-------------------------------------Navigation Bar*/
-
 /*------------------Custom Styling adding to navbar section*/
+
 .navbar {
-    padding: 20px 0px;
-    border: 0;
     color: #FBFFFC!important;
     background-color: #ad1313;
     font-family: "Jura", sans-serif;
@@ -16,6 +14,9 @@
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin: 0px;
+    padding: 20px 0px;
+    border: 0;
     border-radius: 0px;
 }
 
@@ -33,4 +34,26 @@
 .navbar-nav :hover,
 .navbar-nav :active {
     color: #C9CCC9!important;
+}
+
+/*-------------------------------------Cover Image*/
+
+.cover-image {
+    background-image: url("../images/Main.jpg");
+    height: 1000px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover-text {
+    font-family:"Jura", sans-serif;
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FBFFFC;
+    opacity: 0.8;
+    letter-spacing: 2px;
 }
