@@ -57,3 +57,14 @@
     opacity: 0.8;
     letter-spacing: 2px;
 }
+
+#main-button {
+    background-color:transparent;
+    font-size: 20px;
+}
+
+#main-button:hover,
+#main-button:active {
+    background-color: #C9CCC9;
+    border-color: #BBE6CA;
+}
