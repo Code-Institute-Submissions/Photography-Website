@@ -3,12 +3,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=Jura:100,200,300,400,500,600,700|Play:100,200,300,400,500,600,700');
 
+body {
+    font-family: "Jura", sans-serif;
+}
+
 /*-------------------------------------Navigation Bar*/
 /*------------------Custom Styling adding to navbar section*/
 
 .navbar {
     color: #FBFFFC!important;
-    background-color: #ad1313;
+    background-color: #C52C02;
     font-family: "Jura", sans-serif;
     font-size: 12px;
     font-weight: 800;
@@ -26,14 +30,13 @@
     color: #FBFFFC!important;
 }
 
-.navbar-nav :link,
 .navbar-nav :link {
     color: #FBFFFC!important;
 }
 
 .navbar-nav :hover,
 .navbar-nav :active {
-    color: #C9CCC9!important;
+    color: #A6A088!important;
 }
 
 /*-------------------------------------Cover Image*/
@@ -61,10 +64,34 @@
 #main-button {
     background-color:transparent;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 #main-button:hover,
 #main-button:active {
-    background-color: #C9CCC9;
+    background-color: #A6A088;
     border-color: #BBE6CA;
+}
+
+/*-------------------------------------About Me Section*/
+
+.about-section {
+    background-color: #BE4516;
+}
+
+.about-text {
+    padding-top: 75px;
+    font-family:"Play", sans-serif;
+    font-size: 20px;
+}
+
+.shane-image {
+    float: left;
+    padding: 20px 10px;
+    border-radius: 50%;
+}
+
+.section-heading {
+    font-family: "Jura", sans-serif;
+    color: #FBFFFC;
 }
