@@ -120,4 +120,66 @@ body {
     font-size: 10px;
 }
 
+/*-------------------------------------Editing Section*/
+
+.editing-section {
+    background-color:#BEA1B0;
+}
+
+.editing-image {
+    float: right;
+}
+
+.editing-text {
+    padding-top: 75px;
+    font-family:"Play", sans-serif;
+    font-size: 20px;
+    color: #0E0C0F;
+}
+
+/*-------------------------------------Contact Section*/
+
+.contact-image {
+    background-image: url("../images/bikeLight.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-text {
+    font-family:"Jura", sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: red;
+}
+
+#photograph {
+    color: black;
+}
+
+#form-button {
+    background-color: transparent; 
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#form-button:hover,
+#form-button:active {
+    background-color: #FFFFFF;
+}
+
+
+#social {
+    font-weight: 800;
+}
+
+.my-social {
+    font-size: 40px;
+}
+
 /*-------------------------------------Media Queries*/
