@@ -48,6 +48,7 @@ body {
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .cover-text {
@@ -84,22 +85,52 @@ body {
     background-color: #BE4516;
 }
 
+
 .about-text {
-    padding-top: 75px;
+    padding: 50px 0px;
     font-family:"Play", sans-serif;
     font-size: 20px;
-    color: #0E0C0F;
+    color: #FBFFFC;
+}
+
+.about-text p a {
+    text-decoration: none;
+    color:#FFC0CB;
+    /*opacity: 0.7;*/
+}
+
+.about-text p a:hover,
+.about-text p a:active {
+    text-decoration: none;
+    color: #B3E0E5;
 }
 
 .shane-image {
     float: left;
-    padding: 20px 10px;
+    margin-bottom: 40px;
     border-radius: 50%;
+    border: 10px solid white;
 }
 
 .section-heading {
     font-family: "Jura", sans-serif;
     color: #FBFFFC;
+}
+
+.quote {
+    color:#FBFFFC;
+}
+
+.quotelink a {
+    font-family:"Play", sans-serif;
+    text-decoration: none;
+    color:#FFC0CB;
+
+}
+
+.quotelink a:hover,
+.quotelink a:active {
+    color: #B3E0E5;
 }
 
 /*-------------------------------------Photography Section*/
@@ -115,11 +146,21 @@ body {
 
 .description {
     font-family:"Play", sans-serif;
-    color: #0E0C0F;
+    color: #FBFFFC;
 }
-.enquiries {
-    color:#8D2104;
+.enquiries  {
+    color: #FBFFFC;
+    /*background-color:transparent;*/
     font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.enquiries :hover,
+.enquiries :active {
+    background-color: white;
+    text-decoration: none;
 }
 
 /*-------------------------------------Editing Section*/
@@ -184,6 +225,8 @@ body {
     font-size: 40px;
 }
 
+
+
 /*-------------------------------------Footer*/
 
 footer {
@@ -200,11 +243,16 @@ footer {
         background-image: url("../images/main800.jpg");
         height: 300px;
     }
-    .cover-text {
-        top: 30%;
-    }
     .shane-image {
         width: 150px;
+        float: none;
+        border-radius: 0;
+        margin-bottom: 20px;
+        padding: 0;
+        border: 10px solid white;
+    }
+    .about-text {
+        padding: 10px 0px;
     }
     .editing-image {
         width: 150px;
@@ -213,18 +261,21 @@ footer {
     .contact-image {
         background-image: url("../images/bikeLight 800.jpg");
     }
-    #photograph {
+   /* #photograph {
         color: #FFFFFF;
-    }
+    }*/
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .cover-image {
         background-image: url("../images/Main 1000.jpg");
-        height: 400px;
+        height: 600px;
     }
     .contact-image {
         background-image: url("../images/bikeLight 1000.jpg");
+    }
+    .quotelink{
+        float: none;
     }
 }
 
@@ -232,5 +283,6 @@ footer {
     .cover-image {
         background-image: url("../images/Main large.jpg");
     }
+   
     
 }
