@@ -102,6 +102,7 @@ body {
 
 .main-button:hover,
 .main-button:active {
+    color: #FBFFFC;
     background-color: #141411;
     border-color: #BBE6CA;
     text-decoration: none;
@@ -165,17 +166,17 @@ body {
 
 .enquiries {
     color: #FBFFFC;
+    background-color: #C70000;
     font-size: 10px;
     text-transform: uppercase;
     text-decoration: none;
     margin-bottom: 10px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
 }
 
 .enquiries:hover,
 .enquiries:active {
-    background-color: #FBFFFC;
+    color: #FBFFFC;
+    background-color: #141411;
     text-decoration: none;
 }
 
